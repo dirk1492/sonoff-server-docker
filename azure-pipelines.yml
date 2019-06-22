@@ -4,6 +4,7 @@ trigger:
 pool:
   vmImage: 'ubuntu-latest'
 
+steps:
 - task: Docker@2
   displayName: 'Build docker container'  
   inputs:
